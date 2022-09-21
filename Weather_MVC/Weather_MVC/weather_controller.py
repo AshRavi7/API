@@ -6,7 +6,8 @@ def GetChoice():
 	'''Get option from user:
 		N/n - New Search
 		Q/q - Quit			'''  
-    print('Welcome to Weather Forecast')
+    string="Welcome to Weather Forecast" # fixed the conflict by accepting the changes from the test branch- human intervention required. 
+    print(string)
 	choice=input(weather_view.StartView())
 	logging.info("inside GetChoice()")
 	# 1. weather_view.StartView()
