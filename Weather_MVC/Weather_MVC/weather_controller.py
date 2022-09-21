@@ -6,6 +6,8 @@ def GetChoice():
 	'''Get option from user:
 		N/n - New Search
 		Q/q - Quit			'''  
+    string="Welcome to Weather Forecast"
+    print(string)
 	choice=input(weather_view.StartView())
 	logging.info("inside GetChoice()")
 	# 1. weather_view.StartView()
