@@ -3,7 +3,7 @@ import weather_model # importing functions from view.py
 import logging  # logs every debugging step in the log file "weather_app.log"
 
 def GetChoice():
-	'''Get choice from user:
+	'''Get option from user:
 		N/n - New Search
 		Q/q - Quit			'''  
 	choice=input(weather_view.StartView())
